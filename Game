@@ -1,0 +1,8 @@
+noStroke();
+fill(117, 246, 255);
+draw = function() {
+    if (mouseIsPressed){
+        ellipse(mouseX, mouseY, 30, 30);
+    }
+    
+};
